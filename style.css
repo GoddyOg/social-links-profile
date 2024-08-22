@@ -10,13 +10,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #000;
+    background-color: hsl(0, 0%, 8%);
 }
 
 .container {
     height: 550px;
     width: 300px;
-    background-color: #495345;
+    background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
 }
 
@@ -37,14 +37,14 @@ img {
 #name {
     color: #fff;
     font-size: 25px;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: -20px;
 }
 
 #location {
-    color: #dcc813;
+    color: hsl(75, 94%, 57%);
     margin-top: 5px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #skill {
@@ -69,13 +69,14 @@ a {
     color: #fff;
     text-decoration: none;
     width: 100%;
-    background-color: rgb(162, 162, 154, 0.4);
-    font-weight: 550;
+    /* background-color: rgb(162, 162, 154, 0.4); */
+    background-color: hsl(0, 0%, 20%); 
+    font-weight: 400;
 }
 
 a:hover {
     cursor: pointer;
-    background-color: #ffff18;
+    background-color: hsl(75, 94%, 57%);
     color: #000;
     transition: 0.3s ease;
 }
